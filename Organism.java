@@ -19,7 +19,7 @@ public class Organism {
   }
   
   private String toString() {
-    return "species: " + species + ", is alive: " + isAlive + ", size: " + size;
+    return "species: " + species + ", is alive: " + isAlive + ", size: " + size + " cm";
   }
   
   //Set Methods
