@@ -40,9 +40,9 @@ public class Animal inherits Organism {
     return isHungry
   }
   
-  private String toString() {
+  private void toString() {
     this.toString();
-    return Organism.toString(species, isAlive, size);
+    System.println(Organism.toString(species, isAlive, size));
   }
   
   //Set Methods
